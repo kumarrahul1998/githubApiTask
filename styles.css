@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.spinner-container{
+    height: 100vh;
+}
+
+.standard-container{
+    min-height: 100vh;
+}
+
+.task-title{
+    font-family: 'Italianno', cursive;
+    font-size: 3rem;
+    color: #116466;
+    text-decoration: underline;
+}
+
+.profile-image{
+    max-width: 20rem;
+    max-height: 18rem;
+    min-height: 2rem;
+    min-width: 2rem;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #114466;
+    font-family: 'Lobster', cursive;
+}
+.name-container{
+    background-color: #c5cbe3;
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.fork-count{
+    color: #4056a1;
+    font-size: 1rem;
+
+}
+.stars-count{
+    color: #d79922;
+    font-size: 1rem;
+
+}
+.repo-link{
+    color: #f13c20;
+    font-size: 1rem;
+
+}
+.repo-name{
+    text-transform: capitalize;
+    color: red;
+}

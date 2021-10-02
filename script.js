@@ -32,7 +32,7 @@ async function getGithubData(){
         repoAccordion.innerHTML+= ` <div class="accordion-item">
         <h2 class="accordion-header" id="heading${i.id}">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${i.id}" aria-expanded="true" aria-controls="collapseOne">
-           <span class="repo-name">${i.name}</span>
+           <span class="repo-name">${i.name} <span class="badge bg-primary">${i.visibility}</span></h1></span>
           </button>
         </h2>
         <div id="collapse${i.id}" class="accordion-collapse collapse" aria-labelledby="heading${i.id}" data-bs-parent="#repoAccordion">
